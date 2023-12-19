@@ -4,7 +4,7 @@ function swap(arr,i,j){
     arr[j]=temp;
 }
 
-function pivot(arr,start=0,end=arr.length+1){
+function pivot(arr,start=0,end=arr.length){
 let pivot=arr[start];
 let swapIndex=start;
 for(let i=start+1;i<arr.length;i++){
